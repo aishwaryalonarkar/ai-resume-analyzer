@@ -27,9 +27,16 @@ const Analyzer = () => {
     setError('');
     setAnalysisResult(null);
 
-    try {
-      // Replace it with this
-      const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5001';
+
+      try {
+        const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5001';
+        
+        // It will print the exact URL being used for the API call.
+        console.log("Attempting to connect to API at:", API_URL); 
+
+    // try {
+    //   // Replace it with this
+    //   const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5001';
       const response = await fetch(`${API_URL}/api/analyze`, {
 
       // const response = await fetch('http://localhost:5001/api/analyze', {
