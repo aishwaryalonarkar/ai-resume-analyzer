@@ -1,4 +1,3 @@
-// client/src/s/Analyzer.js
 import React, { useState } from 'react';
 import './Analyzer.css';
 
