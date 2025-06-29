@@ -27,7 +27,14 @@ except LookupError: # <-- MUST be LookupError
 # --- Initialize Flask App ---
 app = Flask(__name__)
 # Replace it with this more robust line
-CORS(app, resources={r"/api/*": {"origins": "*"}})
+CORS(app, resources={
+  r"/api/*": {
+    "origins": "*",  # Allows all domains
+    "methods": ["GET", "POST", "OPTIONS"],  # Allows GET, POST, and the crucial OPTIONS preflight request
+    "allow_headers": ["Content-Type", "Authorization"] # Allows the Content-Type header your app sends
+  }
+})
+
 
 # --- 1. LOAD SKILLS FROM EXTERNAL JSON FILE ---
 # This function loads our skills database and flattens it into a single set for efficient searching.
