@@ -1,0 +1,51 @@
+{
+  "Programming Languages": [
+    "python", "java", "c++", "c#", "c", "javascript", "js", "es6", "typescript", "ts",
+    "sql", "pl/sql", "rust", "go", "golang", "php", "ruby", "swift", "kotlin", "scala", "r", "matlab",
+    "powershell", "bash"
+  ],
+  "Frontend Technologies": [
+    "html", "css", "sass", "less", "react", "react.js", "angular", "angularjs", "vue", "vue.js", 
+    "next.js", "svelte", "jquery", "bootstrap", "tailwind", "webpack", "babel", "redux", "mobx"
+  ],
+  "Backend Technologies": [
+    "node.js", "nodejs", "express", "flask", "django", "spring", "spring boot", ".net", "asp.net",
+    "laravel", "ruby on rails", "fastapi"
+  ],
+  "Cloud & DevOps": [
+    "aws", "azure", "gcp", "google cloud", "docker", "kubernetes", "k8s", "ci/cd", "ci-cd", 
+    "terraform", "ansible", "jenkins", "serverless", "aws lambda", "azure functions", 
+    "cloudformation", "github actions", "gitlab ci"
+  ],
+  "Databases & Data Engineering": [
+    "mysql", "postgresql", "postgres", "mongodb", "mongo", "redis", "elasticsearch", "kafka", "spark",
+    "apache spark", "hadoop", "etl", "data pipelines", "data warehousing", "dwh", "ssis",
+    "power bi", "tableau", "qlik", "data factory", "bigquery", "redshift", "snowflake", "databricks"
+  ],
+  "AI & Machine Learning": [
+    "machine learning", "ml", "ai", "artificial intelligence", "deep learning", "nlp", 
+    "natural language processing", "computer vision", "tensorflow", "pytorch", "keras", 
+    "scikit-learn", "pandas", "numpy", "matplotlib", "seaborn", "openai", "gpt"
+  ],
+  "Project Management & Methodologies": [
+    "agile", "scrum", "kanban", "waterfall", "jira", "confluence", "trello", "lean", "six sigma",
+    "pmp", "product management", "project management"
+  ],
+  "Business & Finance": [
+    "financial analysis", "financial modeling", "budgeting", "forecasting", "accounting", 
+    "bookkeeping", "quickbooks", "sap", "oracle finance", "excel", "vba", "risk management",
+    "compliance", "auditing", "investment analysis", "securities", "trading"
+  ],
+  "Human Resources (HR)": [
+    "recruiting", "talent acquisition", "onboarding", "employee relations", "performance management",
+    "hris", "workday", "sap successfactors", "compensation and benefits", "payroll", "labor law"
+  ],
+  "Design & UX/UI": [
+    "ux", "ui", "user experience", "user interface", "figma", "sketch", "adobe xd", "invision",
+    "wireframing", "prototyping", "user research", "design systems"
+  ],
+  "General Tools & Concepts": [
+    "git", "github", "api", "rest", "restful", "graphql", "microservices", "mfa", "sso", "oauth",
+    "activemq", "rabbitmq"
+  ]
+}
