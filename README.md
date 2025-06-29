@@ -140,12 +140,6 @@ The system consists of a React frontend for user interaction and a Python backen
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----
-
 ## Author
 
 **Aishwarya Lonarkar**  
