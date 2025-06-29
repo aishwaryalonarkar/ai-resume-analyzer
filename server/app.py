@@ -16,7 +16,8 @@ except nltk.downloader.DownloadError:
 
 # --- Initialize Flask App ---
 app = Flask(__name__)
-CORS(app) 
+# Replace it with this more robust line
+CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 # --- 1. LOAD SKILLS FROM EXTERNAL JSON FILE ---
 # This function loads our skills database and flattens it into a single set for efficient searching.
