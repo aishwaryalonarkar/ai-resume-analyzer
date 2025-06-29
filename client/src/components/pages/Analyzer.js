@@ -29,8 +29,6 @@ const Analyzer = () => {
 
       try {
         const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5001';
-        
-        // It will print the exact URL being used for the API call.
         console.log("Attempting to connect to API at:", API_URL); 
 
     // try {
