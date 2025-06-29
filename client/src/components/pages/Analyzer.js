@@ -29,7 +29,7 @@ const Analyzer = () => {
 
       try {
         const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5001';
-        console.log("Attempting to connect to API at:", API_URL); 
+        // console.log("Attempting to connect to API at:", API_URL); 
 
     // try {
     //   // Replace it with this
