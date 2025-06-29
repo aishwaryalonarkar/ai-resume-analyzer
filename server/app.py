@@ -9,11 +9,21 @@ import nltk
 from nltk.tokenize import word_tokenize
 
 # --- Initial NLTK Download ---
+# try:
+#     nltk.data.find('tokenizers/punkt')
+# except nltk.downloader.DownloadError:
+#     nltk.download('punkt')
+
+# THIS IS THE CORRECT CODE FOR app.py
+
+# --- Initial NLTK Download ---
 try:
     nltk.data.find('tokenizers/punkt')
-except nltk.downloader.DownloadError:
+except LookupError: # <-- MUST be LookupError
+    print("NLTK 'punkt' resource not found. Downloading...")
     nltk.download('punkt')
 
+    
 # --- Initialize Flask App ---
 app = Flask(__name__)
 # Replace it with this more robust line
